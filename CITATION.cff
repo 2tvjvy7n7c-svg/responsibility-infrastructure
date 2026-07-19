@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you cite this work, please cite it using the metadata below."
+type: article
+title: "AI Does Not Have an Intelligence Problem. It Has a Responsibility Problem."
+authors:
+  - family-names: Galullo
+    given-names: "Douglas P."
+date-released: 2026-07-18
+version: "1.0"
+abstract: >-
+  This article argues that artificial intelligence's central challenge is not
+  capability, but responsibility, and introduces responsibility infrastructure
+  as a framework for bounded authority, preserved evidence, meaningful review,
+  adaptive procedures, institutional memory, and identifiable human accountability.
