@@ -72,9 +72,36 @@ The work is published so the argument, its development, and its revisions can be
 - `assets/` - cover artwork
 - `research/` - sourcing agenda and future-paper scope
 - `releases/` - fixed release notes
+- `docs/history/` - public project-history notes (not thesis revisions)
 - `CITATION.cff` - citation metadata
 - `PUBLICATION.md` - authorship and publication record
 - `CHANGELOG.md` - version history
+
+## Related project history (not the thesis text)
+
+Dog House Ventures occasionally records **high-level** applied-engineering milestones that are relevant to the responsibility thesis but are **not** amendments to the paper.
+
+- [2026-07-20 — Mission-Control M1 experimental vertical slice](docs/history/2026-07-20-mission-control-m1-experimental-slice.md)
+
+That note summarizes that a **bounded experimental** supervised request-to-durable-evidence path completed verification under explicit non-goals (not production control plane; further phases deferred). Implementation detail remains internal.
+
+## Dog House Ventures map
+
+| Artifact | Location |
+|---|---|
+| This public thesis | This repository |
+| Internal constitutions & business records | `DOG HOUSE VENTURES LLC/` business filesystem (not this repo) |
+| Engineering OS & labs | `DOG_HOUSE_SYSTEM/` |
+
+## Relationship to Dog House Ventures governance
+
+This repository is the **public research publication** of the responsibility thesis. It is not the company’s internal constitution stack, product source, or business-record filesystem.
+
+Internal Dog House Ventures governance (Constitution, AI Control Constitution, File Structure Constitution, operational standards) lives in the company business filesystem under Dog House Ventures LLC operations policies — separate from this public research tree. As of 2026-07-20 that internal stack is treated as activated and stable for operations; this public thesis remains the published argument, not the operating control system.
+
+The session handoff for company architecture (business filesystem) states the same operating principle published here: authority enters through a mandate/governance, evidence persists with decisions, and responsibility exits through explicit acceptance. Products (Doghouse as command-and-control, Investment Vault, Proof Ready, and others) inherit internal governance rather than replacing it.
+
+This publication discloses thesis, process, and results. It does not disclose proprietary implementation (architecture, source code, prompts, schemas, or security design).
 
 ## Version
 

@@ -2,6 +2,17 @@
 
 All material public changes to this publication repository will be documented here.
 
+## 2026-07-20 — Related engineering milestone note (not a thesis revision)
+
+Added a public **project history** note for Dog House Ventures’ **Mission-Control M1** experimental vertical slice:
+
+- `docs/history/2026-07-20-mission-control-m1-experimental-slice.md`
+- `docs/history/README.md` (indexes **M1** as first formal public engineering milestone ID)
+
+This is **not** a change to the Version 1.0 thesis article, abstract, or PDF. It records that a bounded internal engineering experiment closed with verified automated tests, while explicitly stating non-goals: not a permanent production control plane, Phase 6 not started, no production or investor-readiness claims. **M2** is reserved/not started.
+
+Internal technical reports and the full Engineering Milestone Index remain outside this repository.
+
 ## Version 1.0 - July 18, 2026
 
 Initial public release.
