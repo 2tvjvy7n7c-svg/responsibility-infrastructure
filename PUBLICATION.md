@@ -56,6 +56,14 @@ Doghouse is mentioned only as the experimental governed operating environment in
 
 This publication does not disclose proprietary internal architecture, source code, prompts, schemas, security design, or implementation mechanisms.
 
+## Publication Safety Gate
+
+External publication from this repository (including Git pushes to the public remote) must pass the Doghouse **Publication Safety Gate** under company policy **DHV-PUB-001** before it is considered authorized.
+
+- Fail closed: prohibited content blocks push/release.
+- Safety Gate PASS is necessary but not sufficient; governance approval and evidence requirements still apply.
+- See `docs/PUBLICATION_SAFETY.md` in this repository.
+
 ## Future revisions
 
 Future revisions will be documented in `CHANGELOG.md` and released under new version tags.

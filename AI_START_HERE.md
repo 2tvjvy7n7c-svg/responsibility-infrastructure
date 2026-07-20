@@ -16,6 +16,8 @@ Before any substantive Doghouse work on or about this repository, read in this o
 
 This repository is a **public research publication**. It is not the company business filesystem and must not be used as a second governance authority. Absolute local filesystem paths are intentionally omitted from this public tree.
 
+External publication requires **Publication Safety Gate PASS** (company policy DHV-PUB-001 / control DHV-PUB-GATE-001). Fail closed. See `docs/PUBLICATION_SAFETY.md`.
+
 Complete the preflight silently. The founder does not need to repeat these instructions.
 
 ## End of Work

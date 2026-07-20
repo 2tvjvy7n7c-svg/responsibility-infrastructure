@@ -12,4 +12,6 @@ Before any substantive Doghouse task in this repository, read and follow:
 
 This is a public research publication. Do not disclose proprietary Doghouse implementation details. Do not treat this repository as company constitutional authority.
 
+External publication requires Publication Safety Gate PASS (DHV-PUB-001). Fail closed. See `docs/PUBLICATION_SAFETY.md`. Do not push on FAIL.
+
 At mission end, follow the company AI Work Completion Standard (business filesystem). Completion Record required for consequential work; AI Handoff Summary required for T2/T3 and any cross-session transfer.
