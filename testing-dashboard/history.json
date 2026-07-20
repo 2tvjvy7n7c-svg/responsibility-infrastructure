@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "note": "Aggregate, verified test/validation counts only. No case-level detail, no run identifiers, no methodology. See ../docs/EVIDENCE_INDEX.md for sourcing.",
+  "entries": [
+    {
+      "date": "2026-07-20",
+      "label": "M1 — request governance layer closed",
+      "tests_total": 90,
+      "tests_passing": 90
+    },
+    {
+      "date": "2026-07-20",
+      "label": "M1 — state derivation and lifecycle enforcement layers closed",
+      "tests_total": 103,
+      "tests_passing": 103
+    },
+    {
+      "date": "2026-07-20",
+      "label": "M1 — runtime scheduling integration closed (final M1 verification)",
+      "tests_total": 112,
+      "tests_passing": 112
+    },
+    {
+      "date": "2026-06-20",
+      "label": "External gold-standard adversarial validation — most recent completed cycle",
+      "tests_total": 500,
+      "tests_passing": 500
+    }
+  ]
+}

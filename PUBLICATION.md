@@ -64,6 +64,17 @@ External publication from this repository (including Git pushes to the public re
 - Safety Gate PASS is necessary but not sufficient; governance approval and evidence requirements still apply.
 - See `docs/PUBLICATION_SAFETY.md` in this repository.
 
+## Phase 1 governed public repository expansion (2026-07-20)
+
+Under founder-approved exception **`EXC-2026-001`** (company Exception Register, `DOGHOUSE_EXCEPTION_REGISTER.md`), this repository's public disclosure scope was expanded, beyond the M1-only baseline, to include:
+
+- Aggregate-only external gold-standard validation counts (no named run/RC identifiers, no case-level detail, no methodology).
+- Mission Control conceptual architecture layer names only (no file paths, schemas, or mechanism detail) — see `ARCHITECTURE_OVERVIEW.md`.
+- Verified test counts, implementation status, roadmap status, and engineering progress metrics — see `STATUS.md`.
+- A repository-wide claim-to-evidence mapping — see `docs/EVIDENCE_INDEX.md`.
+
+This exception does not authorize disclosure of source code, prompts, private conversations, implementation detail, security architecture, private schemas, proprietary algorithms, confidential documents, founder-only material, or the reserved M2 milestone. It remains subordinate to `DOGHOUSE_PUBLICATION_POLICY.md` (DHV-PUB-001) and the Publication Safety Gate.
+
 ## Future revisions
 
 Future revisions will be documented in `CHANGELOG.md` and released under new version tags.

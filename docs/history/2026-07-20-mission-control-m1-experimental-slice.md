@@ -76,3 +76,8 @@ Authoritative technical completion package: internal M1 completion report and ph
 | Supersedes thesis v1.0 | No |
 | Authorizes production claims | No |
 | Derived from | Internal `M1_FINAL_COMPLETION_REPORT.md` (2026-07-20), without republishing implementation detail |
+| Evidence source | Internal Doghouse Engineering Milestone Index, M1 entry (title only; see [Evidence Index](../EVIDENCE_INDEX.md)) |
+| Verification status | Verified complete for M1 scope, 2026-07-20 — build PASS; 112/112 automated tests PASS (compiled and direct-source paths) |
+| Approval status | Founder-approved public summary; passed Publication Safety Gate prior to publication |
+| Related architecture | [Mission Control conceptual architecture overview](../../ARCHITECTURE_OVERVIEW.md) — five named layers (authority foundation, request governance, state derivation, lifecycle enforcement, runtime scheduling integration) |
+| Related implementation phase | Internal phase series (Phase 3 through Phase 5.3, as scoped) — mapped to the conceptual layers above; internal phase numbering is not used in this public repository to avoid collision with unrelated company-wide phase references |

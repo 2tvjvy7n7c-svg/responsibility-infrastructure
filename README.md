@@ -65,6 +65,14 @@ It does not claim:
 
 The work is published so the argument, its development, and its revisions can be examined over time.
 
+## Current engineering status
+
+For a machine-checkable summary of Mission Control's engineering status — current milestone, implementation status by component, verified test counts, external validation results, and roadmap status — see [STATUS.md](STATUS.md).
+
+For the conceptual architecture behind that status (named layers only, no implementation detail), see [ARCHITECTURE_OVERVIEW.md](ARCHITECTURE_OVERVIEW.md).
+
+Every factual claim on those pages, and in this README, resolves to a source in the [Evidence Index](docs/EVIDENCE_INDEX.md).
+
 ## Repository contents
 
 - `articles/` - canonical Markdown article
@@ -72,7 +80,11 @@ The work is published so the argument, its development, and its revisions can be
 - `assets/` - cover artwork
 - `research/` - sourcing agenda and future-paper scope
 - `releases/` - fixed release notes
-- `docs/history/` - public project-history notes (not thesis revisions)
+- `docs/history/` - public project-history and milestone notes (not thesis revisions)
+- `docs/EVIDENCE_INDEX.md` - claim-to-source mapping for every published fact
+- `testing-dashboard/` - aggregate, verified test and validation counts
+- `STATUS.md` - current engineering status, implementation status, roadmap status
+- `ARCHITECTURE_OVERVIEW.md` - conceptual Mission Control architecture (named layers only)
 - `CITATION.cff` - citation metadata
 - `PUBLICATION.md` - authorship and publication record
 - `CHANGELOG.md` - version history
