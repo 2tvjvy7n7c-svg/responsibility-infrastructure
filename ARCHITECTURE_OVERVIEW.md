@@ -1,6 +1,12 @@
 # Mission Control — Conceptual Architecture Overview
 
-**Status:** Describes the bounded experimental scope closed at milestone **M1** (2026-07-20). Does not describe a production control plane. Implementation detail — source layout, lock mechanisms, schemas, security design — is intentionally not disclosed here. See [PUBLICATION.md](PUBLICATION.md) and [docs/PUBLICATION_SAFETY.md](docs/PUBLICATION_SAFETY.md).
+**Program:** Mission Control (`MC`) only — not a company-wide or multi-product architecture document.  
+**Status:** Describes the bounded experimental scope closed at milestone **M1** (2026-07-20). Does not describe a production control plane.  
+**Evidence class:** Layer names and scope = `ATTESTED-INTERNAL` (derived from internal Engineering Milestone Index / M1 package); this file’s text = `PUBLIC-ARTIFACT`.
+
+Implementation detail — source layout, lock mechanisms, schemas, security design — is intentionally not disclosed here. See [PUBLICATION.md](PUBLICATION.md) and [docs/PUBLICATION_SAFETY.md](docs/PUBLICATION_SAFETY.md).
+
+For Investment Vault or Proof Ready public maturity, see [STATUS.md](STATUS.md) and product history notes under `docs/history/` — not this file.
 
 ## What this page is
 
@@ -16,11 +22,14 @@ Mission Control is Dog House Ventures' internal applied-engineering program on g
 
 These layers were closed, verified, and audited as bounded experimental work under milestone M1. An orchestration layer above these remains the decision engine and is outside M1's closed scope.
 
+Hostile-review process fact: request-governance work included correction of an incorrect channel/actor acceptance path so invalid sources become durable rejections. See the [M1 history note](docs/history/2026-07-20-mission-control-m1-experimental-slice.md). Mechanism detail remains internal.
+
 ## What this is not
 
 - Not a description of source layout, module boundaries, or file structure.
 - Not a description of lock mechanisms, schemas, or security design.
 - Not a claim of a permanent, production-grade control plane. Expansion beyond M1 (a reserved future milestone) has not started and is not authorized by M1's closure.
+- Not Investment Vault, Proof Ready, or company-wide product architecture.
 
 ## Source
 

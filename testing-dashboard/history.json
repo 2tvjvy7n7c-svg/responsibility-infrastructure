@@ -1,30 +1,118 @@
 {
-  "schema_version": "1.0",
-  "note": "Aggregate, verified test/validation counts only. No case-level detail, no run identifiers, no methodology. See ../docs/EVIDENCE_INDEX.md for sourcing.",
+  "schema_version": "1.2",
+  "note": "Aggregate company-attested counts only. No case-level detail, no methodology, no internal run codenames. See ../docs/EVIDENCE_INDEX.md and ../docs/EVIDENCE_CLASSES.md. Field semantics: for program VAL, cases_total/cases_objective_correct are gold-standard cases (objective-correct), NOT unit tests. For program MC/IV, tests_total/tests_passing are automated unit/regression tests.",
   "entries": [
     {
-      "date": "2026-07-20",
-      "label": "M1 — request governance layer closed",
-      "tests_total": 90,
-      "tests_passing": 90
-    },
-    {
-      "date": "2026-07-20",
-      "label": "M1 — state derivation and lifecycle enforcement layers closed",
-      "tests_total": 103,
-      "tests_passing": 103
-    },
-    {
-      "date": "2026-07-20",
-      "label": "M1 — runtime scheduling integration closed (final M1 verification)",
-      "tests_total": 112,
-      "tests_passing": 112
+      "date": "2026-06-20",
+      "program": "VAL",
+      "metric_kind": "gold_standard_cases",
+      "label": "External gold-standard adversarial validation — Cycle 1",
+      "cases_total": 500,
+      "cases_objective_correct": 245,
+      "objective_accuracy_percent": 49,
+      "classification": "Failed",
+      "execution_failures": 0,
+      "evidence_class": "ATTESTED-INTERNAL"
     },
     {
       "date": "2026-06-20",
-      "label": "External gold-standard adversarial validation — most recent completed cycle",
-      "tests_total": 500,
-      "tests_passing": 500
+      "program": "VAL",
+      "metric_kind": "gold_standard_cases",
+      "label": "External gold-standard adversarial validation — Cycle 2",
+      "cases_total": 500,
+      "cases_objective_correct": 325,
+      "objective_accuracy_percent": 65,
+      "classification": "Failed",
+      "execution_failures": 0,
+      "evidence_class": "ATTESTED-INTERNAL"
+    },
+    {
+      "date": "2026-06-20",
+      "program": "VAL",
+      "metric_kind": "gold_standard_cases",
+      "label": "External gold-standard adversarial validation — Cycle 3",
+      "cases_total": 500,
+      "cases_objective_correct": 470,
+      "objective_accuracy_percent": 94,
+      "classification": "Partial",
+      "execution_failures": 0,
+      "evidence_class": "ATTESTED-INTERNAL"
+    },
+    {
+      "date": "2026-06-20",
+      "program": "VAL",
+      "metric_kind": "gold_standard_cases",
+      "label": "External gold-standard adversarial validation — Cycle 4 (most recent completed)",
+      "cases_total": 500,
+      "cases_objective_correct": 500,
+      "objective_accuracy_percent": 100,
+      "classification": "Strong",
+      "execution_failures": 0,
+      "evidence_class": "ATTESTED-INTERNAL"
+    },
+    {
+      "date": "2026-07-15",
+      "program": "IV",
+      "metric_kind": "qualitative_closeout",
+      "label": "Investment Vault — MVP audit remediation closed (eight verified gaps; live black-box flows executed)",
+      "tests_total": null,
+      "tests_passing": null,
+      "note": "Qualitative closeout; numeric unit totals for this exact date are not published as a single aggregate in the public summary",
+      "evidence_class": "ATTESTED-INTERNAL"
+    },
+    {
+      "date": "2026-07-20",
+      "program": "MC",
+      "metric_kind": "automated_tests",
+      "label": "M1 — request governance layer closed",
+      "tests_total": 90,
+      "tests_passing": 90,
+      "evidence_class": "ATTESTED-INTERNAL"
+    },
+    {
+      "date": "2026-07-20",
+      "program": "MC",
+      "metric_kind": "automated_tests",
+      "label": "M1 — state derivation and lifecycle enforcement layers closed",
+      "tests_total": 103,
+      "tests_passing": 103,
+      "evidence_class": "ATTESTED-INTERNAL"
+    },
+    {
+      "date": "2026-07-20",
+      "program": "MC",
+      "metric_kind": "automated_tests",
+      "label": "M1 — runtime scheduling integration closed (final M1 verification)",
+      "tests_total": 112,
+      "tests_passing": 112,
+      "evidence_class": "ATTESTED-INTERNAL"
+    },
+    {
+      "date": "2026-07-20",
+      "program": "IV",
+      "metric_kind": "automated_tests",
+      "label": "Investment Vault — unit tests after test infrastructure repair",
+      "tests_total": 94,
+      "tests_passing": 94,
+      "evidence_class": "ATTESTED-INTERNAL"
+    },
+    {
+      "date": "2026-07-21",
+      "program": "MC",
+      "metric_kind": "automated_tests",
+      "label": "M1-A+ — Mission Control automated regression (A+ trust maturity close)",
+      "tests_total": 201,
+      "tests_passing": 201,
+      "evidence_class": "ATTESTED-INTERNAL"
+    },
+    {
+      "date": "2026-07-21",
+      "program": "MC",
+      "metric_kind": "automated_tests",
+      "label": "M1-A+ — adversarial trust-maturity suite",
+      "tests_total": 13,
+      "tests_passing": 13,
+      "evidence_class": "ATTESTED-INTERNAL"
     }
   ]
 }
